@@ -1,7 +1,7 @@
 
 # NodeJS Api Request
 
-## Api requsting function
+## Api requesting function
 
 A simple example (Örnek):
 
