@@ -13,6 +13,13 @@ app.get('/api/widgets',function(req,res){
     ]);
 });
 
+// if "app.get()" function gets other link parameters, this shows a 404 page.
+app.use(function(req,res){
+    // res.status(404)
+    res.send("<h1>not found 404</h1>");
+    res.end();
+});
+
 server.listen(3000,function(){
     console.log('rest service is running on port 3000')
 });
