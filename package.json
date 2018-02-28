@@ -1,0 +1,22 @@
+{
+  "name": "webapp",
+  "version": "0.1.0",
+  "description": "nodejs api request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mturkoz93/nodejs-api-request.git"
+  },
+  "author": "mustafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mturkoz93/nodejs-api-request/issues"
+  },
+  "homepage": "https://github.com/mturkoz93/nodejs-api-request#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
